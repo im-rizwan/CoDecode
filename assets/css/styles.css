@@ -1,0 +1,108 @@
+body{
+  font-family: "Montserrat";
+}
+.title{
+  background-color: white;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+
+}
+.container-fluid{
+
+  padding: 10% 10%;
+}
+h1{
+  font-family: "Montserrat";
+  font-size: 5rem;
+  line-height: 1.5;
+}
+.dbtn{
+  margin: 5% 3% 5% 0;
+}
+.problem{
+  padding: 7% 15%;
+
+  background-color: lightgreen;
+  /* position: relative;
+  z-index: 1; */
+}
+.sticky-top{
+  background-image: linear-gradient(to right, #9381ff,#b8b8ff);
+}
+.btn{
+  background-color: #9381ff;
+  color:white;
+}
+.intro{
+  /* background-color: #f8f7ff; */
+background-image: linear-gradient(to right, #9381ff,#b8b8ff);
+}
+.rules{
+
+  text-align: center;
+  background-color: lightblue;
+  color:#fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.submit{
+  text-align: center;
+  padding: 2% 0;
+}
+.footer{
+  text-align: center;
+}
+#solve{
+  text-align: left;
+  background-color: yellow;
+}
+.img{
+  padding: 10px 0 10px 10px;
+}
+.problem{
+  padding: 4px 4px 4px 4px;
+}
+
+
+
+.anime{
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    /* transform: rotate(-25deg); */
+}
+.glass{
+    padding-top: 20px;
+    width: 3rem;
+    animation: glass 5s infinite;
+    animation-delay: 2s;
+}
+@keyframes glass {
+    25%{
+        width: 6rem;
+    }
+    55%{
+        transform: translateX(-3.2rem);
+    }
+    75%{
+        width: 6rem;
+        transform: translateX(16.8rem);
+    }
+    100%{
+        width: 3rem;
+        transform: translateX();
+    }
+}
+.rul{
+  height: 100vh;
+}
