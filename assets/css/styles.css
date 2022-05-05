@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Monument Extended';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Monument Extended'), url('https://fonts.cdnfonts.com/s/19595/MonumentExtended-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Monument Extended';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Monument Extended'), url('https://fonts.cdnfonts.com/s/19595/MonumentExtended-Ultrabold.woff') format('woff');
+}
+
 body {
   font-family: "Montserrat";
 }
