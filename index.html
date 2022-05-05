@@ -11,10 +11,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/4d65d1de87.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="http://fonts.cdnfonts.com/css/monument-extended" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 <body>
@@ -22,10 +22,11 @@
     <!-- Nav Bar -->
     <nav class="navbar sticky-top  navbar-expand-lg navbar-dark ">
       <div class=bg-black>
-        <img class="img"src="assets/logo2.png "width="150px" alt="">
+        <img class="img" src="./assets/images/logo2.png" width="150px" alt="">
       </div>
       <!-- <a class="navbar-brand ms-4">CoDecode</a> -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -48,16 +49,16 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <h1> A Code Development Event</h1>
-          <a href="#rules"><button type="button" class="btn btn-lg dbtn"><i class="fa-solid"></i> Rules</button></a>
-          <!-- <a href="#solve"><button type="button" class="btn btn-outline-danger btn-lg dbtn"> Code Now</button></a> -->
+          <a href="#rules"><button type="button" class="btn  btn-lg dbtn"></i>
+              Rules</button></a>
 
         </div>
         <div class="col-lg-6 index ">
           <div class="anime">
-        <span class="c-icon">C</span>
-        <img src="./assets/glass.png" alt="" srcset="" class="glass">
-        DECODE
-    </div>
+            <span class="c-icon">C</span>
+            <img src="./assets/images/glass.png" alt="" srcset="" class="glass">
+            DECODE
+          </div>
         </div>
       </div>
     </div>
@@ -65,153 +66,126 @@
   </section>
 
   <!-- Rules -->
-  <section class="rules" id="rules">
-    <div id="carouselExampleControls" class="carousel slide rul" data-ride="false">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h3>Rules</h3>
-          <p>
-            This Coding round will have 3 questions.<br> The First person to solve all the 3 questions will be announced as the winner.<br>
-            <p style="color: #2c1dad;">
-              Start solving the questions using the provided code editor<br>(You can choose any programming language among the given options).<br>
-              Solve the question and "Enter the answer" in the provided "Answer Textfield" and hit "Submit".<br>
-              The Answer will be used to unlock the next question.<br>
-              The Answer of the third question is the Name of the treasure text file.<br>
-              Use the Answer and find the Text file. Once found, inform us and claim the prize.<br>
-
-            </p>
-        </p>
-            <a href="#solve"><button type="button" class="btn  btn-lg dbtn"><i class="fa-solid fa-code"></i>Code Now</button></button></a>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!-- Rules -->
-
-
-  <!-- problem 1->2->3 -->
-
-  <!-- problem 1->2->3 -->
-
-
-
-
-
-
+  <section class="container-fluid rules" id="rules">
+    <h3>Rules</h3>
+    <p>
+    This Coding round will have 3 questions.<br> The First person to solve all the 3 questions will be announced as the winner.<br>
+    <p style="color: #2c1dad;">
+    Start solving the questions using the provided code editor<br>(You can choose any programming language among the given options).<br>
+    Solve the question and "Enter the answer" in the provided "Answer Textfield" and hit "Submit".<br>
+    The Answer will be used to unlock the next question.<br>
+    The Answer of the third question is the Name of the treasure text file.<br>
+    Use the Answer and find the Text file. Once found, inform us and claim the prize.<br>
+    
+    </p>
+    </p>
+    <br>
+    <a href="#solve"><button type="button" class="btn btn-lg dbtn">Code</button></button></a>
+  </section>
+  <!-- Rules -->
 
 
   <!-- problem statement -->
-
-
-
-
-
-  <!-- problem statement -->
-
-
-    <!-- coding -->
-    <section class="problem" id="solve">
-      <div class="row">
-        <div class="col-lg-2">
-          <h3>Problem 1 </h3>
-        </div>
-        <div class="col-lg-2">
-          <i class="fa-solid fa-arrow-right fa-3x"></i>
-        </div>
-        <div class="col-lg-2">
-          <h3>Problem 2 </h3>
-        </div>
-        <div class="col-lg-2">
-          <i class="fa-solid fa-arrow-right fa-3x"></i>
-        </div>
-        <div class="col-lg-2">
-          <h3>Problem 3 </h3>
-        </div>
-        <div class="col-lg-2">
-          <i class="icon fa-regular fa-circle-check fa-3x"></i>
-        </div>
+  <section class="container-fluid">
+    <div class="row problem align-items-center" id="solve">
+      <div class="col-lg-2 problem-1">
+        <h3>Problem 1 </h3>
       </div>
-    </section>
-
-  </section>
-  <div class="row">
-    <div class="col-lg-4 ">
-      <h2>Question 1</h2>
-      <h3>Sum of even numbers in the range 1 to 1000.</h3>
-    </div>
-    <div class="col-lg-8">
-      <ul class="nav nav-pills mb-3 " id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Java</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Python</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">C</button>
-        </li>
-      </ul>
-
-      <div class="tab-content" id="pills-tabContent">
-
-        <div  class=" tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"> <iframe class="java-editor" frameborder="0" width="100%" height="500px" src="https://replit.com/@rizwan35/java-embed?lite=true"></iframe>
-        </div>
-        <div class=" tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><iframe class="java-editor" frameborder="0" width="100%" height="500px" src="https://replit.com/@rizwan35/python-embed?lite=true"></iframe></div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><iframe class="java-editor" frameborder="0" width="100%" height="500px" src="https://replit.com/@rizwan35/rizwan?lite=true#main.c"></iframe></div>
+      <div class="col-lg-2 problem-1">
+        <i class="fa-solid fa-arrow-right fa-3x"></i>
+      </div>
+      <div class="col-lg-2 problem-2">
+        <h3>Problem 2 </h3>
+      </div>
+      <div class="col-lg-2 problem-2">
+        <i class="fa-solid fa-arrow-right fa-3x"></i>
+      </div>
+      <div class="col-lg-2 problem-3">
+        <h3>Problem 3 </h3>
+      </div>
+      <div class="col-lg-2 problem-3">
+        <i class="icon fa-regular fa-circle-check fa-3x"></i>
       </div>
     </div>
-
-  </div>
-
-
-
-
-
-  <!-- coding -->
-  
-
-  <!-- submit button -->
-  <section id="cta">
-    <div class="row">
-      <div class="col-lg-12 textfield">
-        <input name="answerTextField" type="text" placeholder="Type the answer here">
+    <div class="row questions-section">
+      <div class="col-lg-4 ">
+        <h2>Question</h2>
+        <h3 id="question">Sum of even numbers in the range 1 to 1000.</h3>
       </div>
-      <div class="col-lg-12 submit">
-        <button type="button" class="btn btn-danger btn-lg ">submit</button>
+      <div class="col-lg-8">
+        <!-- <ul class="nav nav-pills mb-3 " id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+              type="button" role="tab" aria-controls="pills-home" aria-selected="true">Java</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+              type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Python</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">C</button>
+          </li>
+        </ul> -->
+
+        <div class="tab-content" id="pills-tabContent">
+          <iframe src="https://www.online-ide.com/" class="editor" frameborder="0" width="100%"></iframe>
+        </div>
       </div>
 
-    </div>
-  </section>
-  <!-- submit button -->
+      <!-- problem statement -->
+
+      <!-- submit button -->
+      <div class="container-fluid" style="padding: 0%;">
+        <section class="form-section">
+          <fieldset class="border p-2 m-4 rounded">
+            <legend class="float-none w-auto p-2">SUBMIT YOUR OUTPUT HERE</legend>
+            <textarea name="output" id="output" class="form-control" cols="30" rows="1" placeholder="Type the answer here"></textarea>
+            <div class="row">
+              <div class="col-lg-12 submit">
+                <button type="button" class="btn btn-lg form-submit" id="form-submit">SUBMIT</button>
+              </div>
+            </div>
+          </fieldset>
+        </section>
+        <!-- submit button -->
+        <!-- Footer -->
+
+        <footer class="footer">
+          <div class="col-lg-12 win">
+            <h3>Solve The Problems To Find the treasure</h3>
+            <h6>Treasure Hunt - A Code Development Event</h6>
+          </div>
+        </footer>
+      </div>
+      <!-- Footer -->
 
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="col-lg-12 win">
-      <h2>Find the treasure to win</h2>
-    </div>
-    <p>Code Development Event-Treasure Hunt</p>
-  </footer>
-  <!-- Footer -->
 
 
+      <!-- Model Dialog Box Content -->
 
 
+      <div id="myModal" class="modal">
 
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close" id="close">&times;</span>
+            <h2 id="model-head"></h2>
+          </div>
+          <div class="modal-body" id="model-body">
 
+          </div>
+        </div>
 
+      </div>
 
-
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+      </script>
+      <script src="https://kit.fontawesome.com/4d65d1de87.js" crossorigin="anonymous"></script>
+      <script src="./assets/js/main.js"></script>
 
 </body>
 
