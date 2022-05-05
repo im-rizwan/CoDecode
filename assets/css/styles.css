@@ -257,6 +257,10 @@ h2 {
 }
 
 .modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   padding: 2px 16px;
   height: 50vh;
 }
