@@ -1,9 +1,9 @@
 let questionAnswer = [{
-    question: "<h3>Sum of even numbers in the range 1 to 1000.</h3>",
+    question: "<h3>Sum of even numbers in the range 1 to 1000(Include 1000).</h3>",
     answer: "250500"
 },
 {
-    question: "<h3>Sum of the strong numbers in the range 1 to 100000<br><h5>Strong numbers are the numbers which satisfy the below condition(the sum of the factorials of the digits is equal to the number itself).</h5><br><h5>145 = 1! + 4! + 5!</h5><br><h5>1! = 1<br>4!=24<br>5!=120<br>So the sum is 145</h5></h3>",
+    question: "<h3>Sum of the strong numbers in the range 1 to 100000<br><h5>Strong numbers are the numbers which satisfy the below condition(the sum of the factorials of the digits is equal to the number itself).</h5><br><h5>145 = 1! + 4! + 5!</h5><br><h5>1! = 1<br>4!=24<br>5!=120<br>So the sum is 145</h5><br><h5>Therefore 145 is a Strong Number</h5></h3>",
     answer: "40733"
 },
 {
@@ -58,7 +58,7 @@ function validate() {
         document.querySelectorAll(".problem-2").forEach((element) => {element.style.color = "#FFF"});
     } else if (submittedAnswer.value == questionAnswer[i].answer && i == 2) {
         head_message = "Congratulations";
-        body_message = "The treasure is {KEY}";
+        body_message = "The password to the treasure zip file is the answer of the 3rd question. Go ahead champ";
         submittedAnswer.value = "";
         document.querySelectorAll(".problem-3").forEach((element) => {element.style.color = "#FFF"});
     } else {
