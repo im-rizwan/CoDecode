@@ -7,8 +7,8 @@ let questionAnswer = [{
     answer: "40733"
 },
 {
-    question: "question",
-    answer: "answer3"
+    question: "<h3>Decrypt the given string with the following operations<br><h5>Given a string s, the task is to decrypt the string in the following way: </h5><br><h5>1. If the frequency of the current character is even then decrement current character by x.</h5><br><h5>2. If the frequency of the character is odd then increment current character by x.</h5><br><h5>String s = ulshvqvexpluxaihpxk<br>x=3</h5><h3>Sample output:</h3><br><h5>Input :s= dyzad, x=3<br>Output : abcda </h5></h3>",
+    answer: "rivestshamiradleman"
 }
 ]
 
@@ -53,7 +53,7 @@ function validate() {
         head_message = "Congratulations";
         body_message = "You got The Answer. Now solve the third question";
         i++;
-        question.innerText = "3. " + questionAnswer[i].question;
+        question.innerHTML = questionAnswer[i].question;
         submittedAnswer.value = "";
         document.querySelectorAll(".problem-2").forEach((element) => {element.style.color = "#FFF"});
     } else if (submittedAnswer.value == questionAnswer[i].answer && i == 2) {
